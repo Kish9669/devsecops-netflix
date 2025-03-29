@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "devsecops-netflix-kish9669" # Replace with your actual S3 bucket name
+    bucket = "devsecops-netflix-rkish" # Replace with your actual S3 bucket name
     key    = "EKS/terraform.tfstate"
     region = "ap-south-1"
   }
